@@ -368,6 +368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251410195}
+  - component: {fileID: 251410196}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -390,6 +391,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &251410196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251410194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88153412055709e45ae39df2bd65b1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _emailInbox: {fileID: 1829793952}
+  _karmaScore: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,7 +858,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1336128694}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1829793954}
+        m_TargetAssemblyTypeName: InboxManager, Assembly-CSharp
+        m_MethodName: DeclineEmail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1336128694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,7 +1125,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1794678621}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1829793954}
+        m_TargetAssemblyTypeName: InboxManager, Assembly-CSharp
+        m_MethodName: AcceptEmail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1794678621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153,7 +1192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1829793953
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1200,8 +1239,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dd31aba3a629dcc428018fc7a31fa328, type: 2}
   - {fileID: 11400000, guid: baf754c87e871ae409e641c2b3b4ab7d, type: 2}
   - {fileID: 11400000, guid: 21bf5bd9efaa0304abe5e07f1a995810, type: 2}
-  subjectText: {fileID: 0}
-  bodyText: {fileID: 0}
+  subjectText: {fileID: 2132840292}
+  bodyText: {fileID: 1368184904}
 --- !u!1 &2132840290
 GameObject:
   m_ObjectHideFlags: 0

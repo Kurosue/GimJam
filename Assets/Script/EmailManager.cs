@@ -44,7 +44,7 @@ public class InboxManager : MonoBehaviour
 
     public void AcceptEmail()
     {
-        ShowRandomMessage();
+        gameObject.SetActive(false);
     }
 
     public void DeclineEmail()
