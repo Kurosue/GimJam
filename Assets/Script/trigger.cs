@@ -16,10 +16,11 @@ public class trigger : MonoBehaviour
         temu = objektemu.GetComponent<objdrag>();
         siri = objeksirih.GetComponent<objdrag>();
         outline = GetComponent<Outline>();
-        if (outline == null)
+    }
+    void Start(){
+        if (outline == null){
             outline = gameObject.AddComponent<Outline>();
-        
-        // Nonaktifkan outline pada awalnya
+        }
         outline.enabled = false;
     }
     void FixedUpdate(){

@@ -14,12 +14,10 @@ public class objdrag : MonoBehaviour
     {
         posisiawal = transform.position;
         outline = GetComponent<Outline>();
-        if (outline == null)
+        if (outline == null){
             outline = gameObject.AddComponent<Outline>();
-        
-        // Nonaktifkan outline pada awalnya
+        }
         outline.enabled = false;
-
     }
     private void OnMouseDrag(){
         if (stok > 0){
