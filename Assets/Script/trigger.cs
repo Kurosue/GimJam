@@ -16,30 +16,29 @@ public class trigger : MonoBehaviour
     }
     void FixedUpdate(){
         if (brotowali && broto.isdilepas){
+            broto.stok -= 1;
             jumlahbroto += 1;
-        }if (kencur && kencu.isdilepas){
+        }else if (kencur && kencu.isdilepas){
+            kencu.stok -=1;
             jumlahkencur += 1;
-        }if (temulawak && temu.isdilepas){
+        }else if (temulawak && temu.isdilepas){
+            temu.stok -= 1;
             jumlahtemu += 1;
-        }if (sirih && siri.isdilepas){
+        }else if (sirih && siri.isdilepas){
+            siri.stok -=1;
             jumlahsirih += 1;
         }
-
     }
     void OnTriggerStay2D(Collider2D collide) {
-        if (collide.CompareTag("brotowali"))
-        {
+        if (collide.CompareTag("brotowali")){
             brotowali = true;
-        }
-        else if (collide.CompareTag("kencur")){
+        }else if (collide.CompareTag("kencur")){
             kencur = true;
-        }
-        else if (collide.CompareTag("temulawak")){
+        }else if (collide.CompareTag("temulawak")){
              temulawak = true;
         }else if (collide.CompareTag("sirih")){
             sirih = true;
         }
-
     }
     void OnTriggerExit2D(Collider2D collide){
         if (collide.CompareTag("brotowali")){ 
