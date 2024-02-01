@@ -273,6 +273,7 @@ GameObject:
   - component: {fileID: 416497014}
   - component: {fileID: 416497016}
   - component: {fileID: 416497017}
+  - component: {fileID: 416497018}
   m_Layer: 0
   m_Name: temulawak
   m_TagString: Untagged
@@ -362,6 +363,7 @@ MonoBehaviour:
   posisiawal: {x: 0, y: 0}
   isdilepas: 0
   objek: {fileID: 153633729}
+  stok: 5
 --- !u!60 &416497017
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -415,6 +417,20 @@ PolygonCollider2D:
       - {x: 0.19999999, y: 0.03}
       - {x: 0.14999999, y: 0.13}
   m_UseDelaunayMesh: 0
+--- !u!114 &416497018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416497011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
 --- !u!1 &592451331
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +443,7 @@ GameObject:
   - component: {fileID: 592451334}
   - component: {fileID: 592451336}
   - component: {fileID: 592451337}
+  - component: {fileID: 592451338}
   m_Layer: 0
   m_Name: sirih
   m_TagString: Untagged
@@ -516,6 +533,7 @@ MonoBehaviour:
   posisiawal: {x: 0, y: 0}
   isdilepas: 0
   objek: {fileID: 1090839228}
+  stok: 5
 --- !u!60 &592451337
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -568,6 +586,20 @@ PolygonCollider2D:
       - {x: 0.19999999, y: -0.13}
       - {x: 0.19999999, y: 0.07}
   m_UseDelaunayMesh: 0
+--- !u!114 &592451338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592451331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
 --- !u!1 &647539012
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,6 +751,7 @@ GameObject:
   - component: {fileID: 916114589}
   - component: {fileID: 916114588}
   - component: {fileID: 916114587}
+  - component: {fileID: 916114590}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -800,6 +833,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &916114590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916114586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78da3f00f3328541b4526c0b0b5ec5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineThickness: 3
+  lineIntensity: 4.5
+  fillAmount: 0.2
+  lineColor0: {r: 1, g: 1, b: 1, a: 1}
+  lineColor1: {r: 0.0915094, g: 0.5, b: 0.0915094, a: 1}
+  lineColor2: {r: 0, g: 0, b: 1, a: 1}
+  additiveRendering: 0
+  backfaceCulling: 1
+  fillTexture: {fileID: 0}
+  fillTextureScale: {x: 1, y: 1}
+  useFillColor: 0
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  cornerOutlines: 0
+  addLinesBetweenColors: 0
+  scaleWithScreenSize: 1
+  alphaCutoff: 0.5
+  flipY: 0
+  sourceCamera: {fileID: 0}
+  autoEnableOutlines: 0
+  outlineCamera: {fileID: 0}
+  outlineShaderMaterial: {fileID: 0}
+  renderTexture: {fileID: 0}
+  extraRenderTexture: {fileID: 0}
 --- !u!1 &1090839228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1156,7 @@ GameObject:
   - component: {fileID: 1926973940}
   - component: {fileID: 1926973938}
   - component: {fileID: 1926973942}
+  - component: {fileID: 1926973943}
   m_Layer: 0
   m_Name: kencur
   m_TagString: Untagged
@@ -1110,6 +1179,7 @@ MonoBehaviour:
   posisiawal: {x: 0, y: 0}
   isdilepas: 0
   objek: {fileID: 1566275182}
+  stok: 5
 --- !u!212 &1926973940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1230,6 +1300,20 @@ PolygonCollider2D:
       - {x: 0.19999999, y: 0.12}
       - {x: 0.16, y: 0.16}
   m_UseDelaunayMesh: 0
+--- !u!114 &1926973943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926973937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
 --- !u!1 &1947134630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1327,7 @@ GameObject:
   - component: {fileID: 1947134634}
   - component: {fileID: 1947134635}
   - component: {fileID: 1947134636}
+  - component: {fileID: 1947134637}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -1433,6 +1518,20 @@ PolygonCollider2D:
       - {x: 0.29296875, y: 0.40234375}
       - {x: 0.15234375, y: 0.47265625}
   m_UseDelaunayMesh: 0
+--- !u!114 &1947134637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947134630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 1
+  eraseRenderer: 0
 --- !u!1 &1974954438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,6 +1544,7 @@ GameObject:
   - component: {fileID: 1974954441}
   - component: {fileID: 1974954439}
   - component: {fileID: 1974954443}
+  - component: {fileID: 1974954444}
   m_Layer: 0
   m_Name: brotowali
   m_TagString: Untagged
@@ -1467,6 +1567,7 @@ MonoBehaviour:
   posisiawal: {x: 0, y: 0}
   isdilepas: 0
   objek: {fileID: 647539012}
+  stok: 5
 --- !u!212 &1974954441
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1589,6 +1690,20 @@ PolygonCollider2D:
       - {x: 0.19999999, y: 0.04}
       - {x: 0.17999999, y: 0.11}
   m_UseDelaunayMesh: 0
+--- !u!114 &1974954444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974954438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

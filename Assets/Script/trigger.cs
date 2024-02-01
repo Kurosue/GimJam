@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using cakeslice;
 
 public class trigger : MonoBehaviour
 {
+    private Outline outline;
     public bool temulawak, kencur, brotowali, sirih;
     public int jumlahsirih, jumlahbroto, jumlahtemu, jumlahkencur;
     objdrag broto, temu, siri, kencu;
@@ -13,6 +15,12 @@ public class trigger : MonoBehaviour
         kencu = objekkencur.GetComponent<objdrag>();
         temu = objektemu.GetComponent<objdrag>();
         siri = objeksirih.GetComponent<objdrag>();
+        outline = GetComponent<Outline>();
+        if (outline == null)
+            outline = gameObject.AddComponent<Outline>();
+        
+        // Nonaktifkan outline pada awalnya
+        outline.enabled = false;
     }
     void FixedUpdate(){
         if (brotowali && broto.isdilepas){
@@ -38,7 +46,7 @@ public class trigger : MonoBehaviour
              temulawak = true;
         }else if (collide.CompareTag("sirih")){
             sirih = true;
-        }
+        }outline.enabled = true;
     }
     void OnTriggerExit2D(Collider2D collide){
         if (collide.CompareTag("brotowali")){ 
@@ -49,6 +57,6 @@ public class trigger : MonoBehaviour
             sirih = false;
         }else if(collide.CompareTag("kencur")){
             kencur = false;
-        }
+        }outline.enabled = false;
     }
 }
