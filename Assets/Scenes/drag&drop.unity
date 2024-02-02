@@ -823,7 +823,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 7.6649, y: 4.3092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579538671
 MonoBehaviour:
@@ -838,7 +838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.45490196}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1786,6 +1786,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1338964760}
+  objek:
+  - {fileID: 1926973937}
+  - {fileID: 1974954438}
+  - {fileID: 592451331}
+  - {fileID: 416497011}
+  Objdrag:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1418941224
 GameObject:
   m_ObjectHideFlags: 0
@@ -3116,6 +3126,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 916114589}
+  - {fileID: 1558959670}
   - {fileID: 1947134632}
   - {fileID: 1926973941}
   - {fileID: 1974954442}
@@ -3125,5 +3136,4 @@ SceneRoots:
   - {fileID: 1566275185}
   - {fileID: 1090839231}
   - {fileID: 153633732}
-  - {fileID: 1558959670}
   - {fileID: 400125396}
