@@ -9,7 +9,7 @@ public class objdrag : MonoBehaviour
     public Vector2 posisiawal;
     public bool isdilepas;
     public GameObject objek;
-    public int stok = 5;
+    public PauseMenu _paused;
     void Start()
     {
         posisiawal = transform.position;
@@ -20,15 +20,12 @@ public class objdrag : MonoBehaviour
         outline.enabled = false;
     }
     private void OnMouseDrag(){
-        if (stok > 0){
+        if(!_paused._pause)
+        {
         Vector2 posisi = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         isdilepas = false;
         objek.SetActive(true);
         objek.transform.position = posisi;
-        }
-        else 
-        {
-            Debug.Log("Habis ngab");
         }
     }
     private void OnMouseUp(){

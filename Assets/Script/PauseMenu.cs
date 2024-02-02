@@ -8,27 +8,30 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject[] objek;
     [SerializeField] objdrag[] Objdrag = new objdrag[4];
+    public bool _pause = false;
 
-    void Awake() {
-        for (int i = 0; i < objek.Length; i++){
-            Objdrag[i] = objek[i].GetComponent<objdrag>();
-        }
-    }
+    // void Awake() {
+    //     for (int i = 0; i < objek.Length; i++){
+    //         Objdrag[i] = objek[i].GetComponent<objdrag>();
+    //     }
+    // }
     public void Pause()
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0;
-        for (int i = 0; i <objek.Length; i++){
-            Objdrag[i].enabled = false;
-        }
+        _pause = true;
+        // for (int i = 0; i <objek.Length; i++){
+        //     Objdrag[i].enabled = false;
+        // }
     }
     public void Resume()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
-        for (int i = 0; i <objek.Length; i++){
-            Objdrag[i].enabled = true;
-        }
+        _pause = false;
+        // for (int i = 0; i <objek.Length; i++){
+        //     Objdrag[i].enabled = true;
+        // }
     }
     public void Settings()
     {

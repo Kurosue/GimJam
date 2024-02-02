@@ -25,16 +25,12 @@ public class trigger : MonoBehaviour
 }
     void FixedUpdate(){
         if (brotowali && broto.isdilepas){
-            broto.stok -= 1;
             jumlahbroto += 1;
         }else if (kencur && kencu.isdilepas){
-            kencu.stok -=1;
             jumlahkencur += 1;
         }else if (temulawak && temu.isdilepas){
-            temu.stok -= 1;
             jumlahtemu += 1;
         }else if (sirih && siri.isdilepas){
-            siri.stok -=1;
             jumlahsirih += 1;
         }
     }
