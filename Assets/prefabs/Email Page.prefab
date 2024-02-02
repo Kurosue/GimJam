@@ -2162,6 +2162,7 @@ MonoBehaviour:
   - -105.7
   _email: 0
   _completed: {fileID: 0}
+  _trigger: {fileID: 0}
   originalList:
   - {fileID: 11400000, guid: 534be97743042f041be29ee0d9588b0e, type: 2}
   - {fileID: 11400000, guid: 53676c40094f05b468c679bdafae3c10, type: 2}
@@ -2176,6 +2177,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 21bf5bd9efaa0304abe5e07f1a995810, type: 2}
   bodyText: {fileID: 6936475753841032022}
   _accButton: {fileID: 4660614838067634193}
+  _closeButton: {fileID: 1434563594663315171}
   _decButton: {fileID: 3388900781553168143}
 --- !u!1 &8145914642476535516
 GameObject:

@@ -10,6 +10,7 @@ public class InboxManager : MonoBehaviour
     public List<float> _Yaxis;
     public int _email = 0;
     public GameManager _completed;
+    public trigger _trigger;
 
     public List<EmailMessage> originalList;
     private int numberOfItemsToSelect = 5;
@@ -17,6 +18,7 @@ public class InboxManager : MonoBehaviour
 
     public TextMeshProUGUI bodyText;
     public GameObject _accButton;
+    public GameObject _closeButton;
     public GameObject _decButton;
 
     Image _monitor;
@@ -62,8 +64,10 @@ public class InboxManager : MonoBehaviour
         // Kalau masak selesai, tombol terima dan tolak dikembalikan
         if(_completed._completed)
         {
-            _accButton.SetActive(false);
-            _decButton.SetActive(false);
+            _closeButton.SetActive(false);
+            _accButton.SetActive(true);
+            _decButton.SetActive(true);
+            DeclineEmail();
         }
     }
 
@@ -71,9 +75,11 @@ public class InboxManager : MonoBehaviour
     public void AcceptEmail()
     {
         _acc = true;
+        _closeButton.SetActive(true);
         _accButton.SetActive(false);
         _decButton.SetActive(false);
-
+        ResetGame();
+        
     }
 
     public void DeclineEmail()
@@ -143,4 +149,13 @@ public class InboxManager : MonoBehaviour
 
         return indices;
     }
+
+    public void ResetGame()
+    {
+        _trigger._total = 0;
+        _trigger.stop = true;
+        _completed._completed = false;
+        _completed._ramuanHasil = "";
+    }
+
 }
