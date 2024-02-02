@@ -3029,7 +3029,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 3.6420898, y: 2.0476074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1338964762
 MonoBehaviour:
@@ -3082,77 +3082,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1338964760}
-<<<<<<< HEAD
-  objek:
-  - {fileID: 1926973937}
-  - {fileID: 1974954438}
-  - {fileID: 592451331}
-  - {fileID: 416497011}
-  Objdrag:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-=======
---- !u!1 &1383400853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1383400854}
-  - component: {fileID: 1383400855}
-  m_Layer: 5
-  m_Name: Buku Magis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1383400854
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383400853}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1293119394}
-  - {fileID: 106848201}
-  - {fileID: 2085744767}
-  - {fileID: 1882057373}
-  - {fileID: 245271930}
-  - {fileID: 1330154254}
-  - {fileID: 580183012}
-  - {fileID: 195341325}
-  - {fileID: 1030955391}
-  m_Father: {fileID: 1558959670}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1383400855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383400853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caa8ee857cdb0684f995c037f42438d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openBuku: {fileID: 1383400853}
->>>>>>> 8635d1895764d7cc74d2bc9f8eeae6e01cc918de
 --- !u!1 &1418941224
 GameObject:
   m_ObjectHideFlags: 0
