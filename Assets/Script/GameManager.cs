@@ -8,17 +8,16 @@ public class GameManager : MonoBehaviour
     public float _karmaScore = 0f;
     public GameObject _emailPage;
     Image _monitor;
-    // Start is called before the first frame update
-
-
+    public bool _completed = false;
     bool _openMail;
+    float _hari;
+
     void Start()
     {
         _monitor = _emailPage.GetComponent<Image>();
         OpenEmail();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Kalau buka mail
@@ -30,7 +29,13 @@ public class GameManager : MonoBehaviour
                 _openMail = false;
             }
         }
+        if(_completed)
+        {
+            _hari++;
+            OpenEmail();
+        }
     }
+
 
     public void OpenEmail()
     {

@@ -786,7 +786,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7834570901785271571}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3434125932853660767}
+        m_TargetAssemblyTypeName: InboxManager, Assembly-CSharp
+        m_MethodName: DeclineEmail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3584461521051684214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2161,7 @@ MonoBehaviour:
   - -58.4
   - -105.7
   _email: 0
+  _completed: {fileID: 0}
   originalList:
   - {fileID: 11400000, guid: 534be97743042f041be29ee0d9588b0e, type: 2}
   - {fileID: 11400000, guid: 53676c40094f05b468c679bdafae3c10, type: 2}

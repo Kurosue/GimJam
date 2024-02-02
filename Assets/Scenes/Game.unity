@@ -2169,6 +2169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _karmaScore: 0
   _emailPage: {fileID: 725654387}
+  _completed: 0
 --- !u!4 &794151821
 Transform:
   m_ObjectHideFlags: 0
@@ -2977,6 +2978,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1558959670}
     m_Modifications:
+    - target: {fileID: 3434125932853660767, guid: 79f23bdcd8f0ce340949711ca8a3af47, type: 3}
+      propertyPath: _completed
+      value: 
+      objectReference: {fileID: 794151820}
     - target: {fileID: 3456530327463256375, guid: 79f23bdcd8f0ce340949711ca8a3af47, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
