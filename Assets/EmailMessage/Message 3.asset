@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subject: 4
   body: D
+  _increaseKarma: 1

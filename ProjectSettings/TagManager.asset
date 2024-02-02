@@ -8,6 +8,7 @@ TagManager:
   - sirih
   - temulawak
   - brotowali
+  - Pause
   layers:
   - Default
   - TransparentFX

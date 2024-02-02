@@ -10,6 +10,7 @@ public class objdrag : MonoBehaviour
     public bool isdilepas;
     public GameObject objek;
     public int stok = 5;
+    public bool pause = true;
     void Start()
     {
         posisiawal = transform.position;
@@ -20,7 +21,7 @@ public class objdrag : MonoBehaviour
         outline.enabled = false;
     }
     private void OnMouseDrag(){
-        if (stok > 0){
+        if (stok > 0 && !pause){
         Vector2 posisi = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         isdilepas = false;
         objek.SetActive(true);

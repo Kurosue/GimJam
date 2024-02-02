@@ -11,6 +11,8 @@ public class InboxManager : MonoBehaviour
     public TextMeshProUGUI subjectText; // Change from Text to TextMeshProUGUI
     public TextMeshProUGUI bodyText;    // Change from Text to TextMeshProUGUI
 
+    public GameManager _karmaScore;
+
     private void Start()
     {
         InitializeAvailableMessages();

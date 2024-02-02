@@ -1241,6 +1241,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 21bf5bd9efaa0304abe5e07f1a995810, type: 2}
   subjectText: {fileID: 2132840292}
   bodyText: {fileID: 1368184904}
+  _karmaScore: {fileID: 0}
 --- !u!1 &2132840290
 GameObject:
   m_ObjectHideFlags: 0
