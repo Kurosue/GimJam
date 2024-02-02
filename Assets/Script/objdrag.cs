@@ -25,7 +25,9 @@ public class objdrag : MonoBehaviour
         isdilepas = false;
         objek.SetActive(true);
         objek.transform.position = posisi;
-        }else {
+        }
+        else 
+        {
             Debug.Log("Habis ngab");
         }
     }
