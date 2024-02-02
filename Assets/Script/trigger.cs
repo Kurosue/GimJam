@@ -22,7 +22,7 @@ public class trigger : MonoBehaviour
             outline = gameObject.AddComponent<Outline>();
         }
         outline.enabled = false;
-    }
+}
     void FixedUpdate(){
         if (brotowali && broto.isdilepas){
             broto.stok -= 1;
