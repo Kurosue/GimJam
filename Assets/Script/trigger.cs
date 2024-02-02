@@ -6,10 +6,12 @@ using cakeslice;
 public class trigger : MonoBehaviour
 {
     private Outline outline;
-    public bool temulawak, kencur, brotowali, sirih;
+    public bool temulawak, kencur, brotowali, sirih, stop;
     public int jumlahsirih, jumlahbroto, jumlahtemu, jumlahkencur;
     objdrag broto, temu, siri, kencu;
     public GameObject objekbroto, objektemu, objekkencur, objeksirih;
+    public int _total;
+    public GameManager _ramuan;
     void Awake() {
         broto = objekbroto.GetComponent<objdrag>();
         kencu = objekkencur.GetComponent<objdrag>();
@@ -32,6 +34,12 @@ public class trigger : MonoBehaviour
             jumlahtemu += 1;
         }else if (sirih && siri.isdilepas){
             jumlahsirih += 1;
+        }
+        _total = jumlahbroto + jumlahkencur + jumlahsirih + jumlahtemu;
+        if(_total == 4)
+        {
+            GetPotion();
+            stop = false;
         }
     }
     void OnTriggerStay2D(Collider2D collide) {
@@ -56,4 +64,21 @@ public class trigger : MonoBehaviour
             kencur = false;
         }outline.enabled = false;
     }
+
+    void GetPotion()
+    {
+        if(jumlahkencur == 1 && jumlahtemu == 2 && jumlahsirih == 1){
+            _ramuan._ramuanHasil = "Ramuan Pelet";
+        }else if(jumlahtemu == 1 && jumlahsirih == 2 && jumlahbroto == 1){
+            _ramuan._ramuanHasil = "Ramuan Penglaris";
+        }else if(jumlahsirih == 1 && jumlahbroto == 2 && jumlahkencur == 1){
+            _ramuan._ramuanHasil = "Ramuan Kebal";
+        }else if(jumlahbroto == 1 && jumlahkencur == 2 && jumlahtemu == 1){
+            _ramuan._ramuanHasil = "Ramuan Waskita";
+        }else if(jumlahkencur == 1 && jumlahbroto == 2 && jumlahtemu == 1){
+            _ramuan._ramuanHasil = "Ramuan Santet";
+        }else{
+            _ramuan._ramuanHasil = "Ramuan Sampah aokweoakwko";
+        }
+    }    
 }

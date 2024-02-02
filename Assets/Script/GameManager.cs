@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public bool _completed = false;
     bool _openMail;
     float _hari;
+    public string _ramuanHasil;
 
     void Start()
     {

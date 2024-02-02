@@ -10,6 +10,7 @@ public class objdrag : MonoBehaviour
     public bool isdilepas;
     public GameObject objek;
     public PauseMenu _paused;
+    public trigger _stopped;
     void Start()
     {
         posisiawal = transform.position;
@@ -20,7 +21,7 @@ public class objdrag : MonoBehaviour
         outline.enabled = false;
     }
     private void OnMouseDrag(){
-        if(!_paused._pause)
+        if(!_paused._pause || !_stopped.stop)
         {
         Vector2 posisi = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         isdilepas = false;
