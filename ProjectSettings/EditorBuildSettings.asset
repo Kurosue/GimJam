@@ -8,16 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 8745248bead8a1c4ebc06bba45fab47e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Email Interface.unity
     guid: 97f2892e2247ed8409d47308162ce1e7
   - enabled: 1
     path: Assets/Scenes/Game.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: b59cd8904cabe094481858fc65eacbb8
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: b59cd8904cabe094481858fc65eacbb8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Minigame.unity
     guid: 2ca1584eee7fd7f469d2cce7b5a93017
   - enabled: 1
