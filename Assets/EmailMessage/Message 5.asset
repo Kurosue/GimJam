@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 5
   m_EditorClassIdentifier: 
-  subject: 6
-  body: F
+  from: sugengsukses@bmail.com
+  subject: Kurang laku
+  body: "ass. wr. wb. permisi, mbah, saya punya usaha bakso yang saat ini lagi kurang
+    laku. Apa karena cita rasanya yang kurang enak ya? Saya memang kadang pakai tikus
+    kalau harga daging lagi mahal, tapi tikus pohon, bukan tikus got. Mohon solusinya\u2026\r"

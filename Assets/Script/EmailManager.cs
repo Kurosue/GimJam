@@ -17,6 +17,7 @@ public class InboxManager : MonoBehaviour
     private List<EmailMessage> _selectedEmail; 
 
     public TextMeshProUGUI bodyText;
+    public TextMeshProUGUI FromText;
     public GameObject _accButton;
     public GameObject _closeButton;
     public GameObject _decButton;
@@ -101,6 +102,7 @@ public class InboxManager : MonoBehaviour
         EmailMessage currentMessage = _selectedEmail[_email];
 
         // subjectText.text = currentMessage.subject;
+        FromText.text = "From " + currentMessage.From;
         bodyText.text = currentMessage.body;
     }
 

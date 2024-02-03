@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
+  m_Name: Message 22
+  m_EditorClassIdentifier: 
+  from: jenderal17@intel.co.id
+  subject: Perlindungan negara
+  body: 'Halo Mbah Dukun,Saya seseorang yang sangat rahasia. Email ini akan langsung
+    menghilang beberapa jam setelah mbah membacanya. Saya membutuhkan bantuan Mbah
+    dalam pembuatan ramuan khusus untuk menangani mata-mata dari sebuah pasukan teroris
+    Papua di negara tercinta kita ini. Saya yakin Mbah mau untuk memberikan kontribusi
+    yang besar untuk negaranya. Mohon agar Mbah Dukun bersedia membantu kami. Kami
+    siap untuk membayar jasa Mbah. Percayalah usaha anda akan sangat membantu negara
+    kita.
+
+'

@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 7
   m_EditorClassIdentifier: 
-  subject: 8
-  body: H
+  from: super4richasian@kmail.com
+  subject: Pengusaha korea
+  body: Perkenalkan, saya penjual kimchi paling terkenal, ingin meminta bantuan Mbah
+    dalam pembuatan ramuan untuk meningkatkan penjualan produk saya. Saya meminta
+    bantuan mbah karena dukun langganan saya sedang sakit. Saya percaya Mbah dapat
+    memberikan bantuan yang berharga bagi usaha saya. Mohon agar Mbah Dukun bersedia
+    membantu saya dalam mengembangkan usaha saya lebih jauh. Saya siap membayar jasa
+    Mbah dengan harga yang mahal.

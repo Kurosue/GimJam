@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
+  m_Name: Message 16
+  m_EditorClassIdentifier: 
+  from: garudasuper17@bmail.co.id
+  subject: Indo
+  body: "Malam mbah, seperti yang mbah tau besok indonesia akan ada pertandingan
+    bola melawan vietnam. Nah saya sebagai fans no.1 Indonesia mau tau seberapa parah
+    indonesia membantai vietnam.  Hahaha gimana nggak penasaran, indonesia kan king
+    of  asean football. Makanya, saya mau pesen satu ramuan mbah yang bisa buat saya
+    pd akan kemenangan indonesia besok  hahahaha\u2026."

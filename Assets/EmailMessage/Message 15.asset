@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
+  m_Name: Message 15
+  m_EditorClassIdentifier: 
+  from: mahasiswaIP4@instituthebat.ih.ac.id
+  subject: UAS besok
+  body: Nuhun mbah. Jadi gini mbah, aku mimpi dapet IP 4. Tapi kemarin UTS matematika
+    hancur. Nah berarti kalau mau dapet IP 4 harus dapet nilai tertinggi di UAS.
+    Bisa tolong min untuk buatin aku ramuan yang bisa bantu aku untuk UAS besok.
+    Ramuan apa aja deh min yang penting bisa bantu UAS aku besok. Ditunggu ya mbah.

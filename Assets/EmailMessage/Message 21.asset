@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
-  m_Name: Message 8
+  m_Name: Message 21
   m_EditorClassIdentifier: 
-  from: dukunnoobies@bmail.com
+  from: dukunpemula@bmail.com
   subject: "Puh\u2026 Ajarin puh\u2026"
-  body: Assalamualaikum mbah. Perkenalkan, aku seorang yang ingin sekali menjadi
-    dukun. Untuk keahlian, aku ingin sekali menjadi dukun bisnis yang sangat hebat.
-    Aku ingin menjadi dukun yang dicari berbagai pebisnis terbaik dunia untuk kemampuannya.
+  body: "Assalamualaikum mbah. Perkenalkan, aku seorang yang ingin sekali menjadi
+    dukun. Untuk keahlian, aku ingin sekali menjadi dukun santet yang sangat hebat.
+    Aku ingin menjadi dukun yang dicari berbagai militer dunia untuk kemampuannya.
     Saya minta pertolongan mbah untuk memberikan aku sebuah ramuan yang bisa ku pelajari
-    nanti. Saya tunggu ya mbah
+    nanti. Saya tunggu ya mbah.\r"

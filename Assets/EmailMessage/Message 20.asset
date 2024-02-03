@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
+  m_Name: Message 20
+  m_EditorClassIdentifier: 
+  from: calegindomaju@bmail.com
+  subject: 'Rahasia '
+  body: Perkenalkan saya seorang caleg dpr ri yang akan memberikan penawaran menarik
+    untuk anda. Saya membutuhkan sebuah ramuan yang mampu untuk mengeliminasi saingan
+    saya di pemilu nanti. Jika anda menerima tawaran saya, saya pastikan anda menerima
+    pembayaran yang setimpal. Saya tunggu pilihan anda.
