@@ -13,9 +13,6 @@ public class InboxManager : MonoBehaviour
     public trigger _trigger;
 
     public List<EmailMessage> originalList;
-    private int numberOfItemsToSelect = 5;
-    private List<EmailMessage> _selectedEmail;
-
 
     public List<TextMeshProUGUI> _listSubjectText;
     public TextMeshProUGUI bodyText;
@@ -30,14 +27,10 @@ public class InboxManager : MonoBehaviour
 
     private void Start()
     {
-        _selectedEmail = SelectRandomItems(originalList, numberOfItemsToSelect);
+        originalList.Shuffle();
         _monitor = GetComponent<Image>();
         ShowRandomMessage();
         _closeButton.SetActive(false);
-        for (int i = 0; i < 5; i++)
-        {
-            _listSubjectText[i].text = _selectedEmail[i].subject;
-        }
     }
 
 
@@ -94,11 +87,13 @@ public class InboxManager : MonoBehaviour
 
     public void DeclineEmail()
     {
-        if(_email < 4f)
-        {    
-            _email++;
-            ShowRandomMessage();
-        }
+    if(originalList.Count < 6)
+    {
+        _email++;
+    }else{
+        originalList.RemoveAt[_email];
+    }
+        ShowRandomMessage();
     }
 
     public void CloseButton()
@@ -108,57 +103,28 @@ public class InboxManager : MonoBehaviour
 
     void ShowRandomMessage()
     {
-        EmailMessage currentMessage = _selectedEmail[_email];
+        EmailMessage currentMessage = originalList[_email];
 
         // subjectText.text = currentMessage.subject;
         FromText.text = "From : " + currentMessage.From;
         bodyText.text = currentMessage.body;
+        for (int i = 0; i < 5; i++)
+        {
+            _listSubjectText[i].text = originalList[i].subject;
+        }
     }
 
-    List<T> SelectRandomItems<T>(List<T> originalList, int numberOfItemsToSelect)
+    public static void Shuffle<T>(this IList<T> list)
     {
-        List<T> selectedItems = new List<T>();
-
-        if (numberOfItemsToSelect >= originalList.Count)
+        int n = list.Count;
+        while (n > 1)
         {
-            // If the requested number is greater or equal to the original list size,
-            // simply return a copy of the original list.
-            return new List<T>(originalList);
+            n--;
+            int k = random.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
         }
-
-        // Generate a list of unique random indices
-        List<int> randomIndices = GenerateRandomIndices(originalList.Count, numberOfItemsToSelect);
-
-        // Select items from the original list based on random indices
-        foreach (int index in randomIndices)
-        {
-            selectedItems.Add(originalList[index]);
-        }
-
-        foreach (T objek in selectedItems)
-        {
-            originalList.Remove(objek);
-        }
-
-        return selectedItems;
-    }
-
-    List<int> GenerateRandomIndices(int listSize, int numberOfItemsToSelect)
-    {
-        List<int> indices = new List<int>();
-
-        while (indices.Count < numberOfItemsToSelect)
-        {
-            int randomIndex = Random.Range(0, listSize);
-
-            // Ensure the index is unique
-            if (!indices.Contains(randomIndex))
-            {
-                indices.Add(randomIndex);
-            }
-        }
-
-        return indices;
     }
 
     public void ResetGame()
