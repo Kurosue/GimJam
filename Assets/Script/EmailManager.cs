@@ -21,15 +21,13 @@ public class InboxManager : MonoBehaviour
     public GameObject _closeButton;
     public GameObject _decButton;
 
-    private static Random random = new Random();
-
     Image _monitor;
     bool _acc = false;
     bool _close = false;
 
     private void Start()
     {
-        ListExtensions.Shuffle(originalList);
+        Shuffle(originalList);
         _monitor = GetComponent<Image>();
         ShowRandomMessage();
         _closeButton.SetActive(false);
@@ -140,23 +138,15 @@ public class InboxManager : MonoBehaviour
         _completed._ramuanHasil = "";
         _completed.timer = 0f;
     }
-
-}
-
-public static class ListExtensions
-{
-    private static Random random = new Random(); // Move this line outside of methods
-
-    public static void Shuffle<T>(this IList<T> list)
+    void Shuffle<T>(List<T> inputList)
     {
-        int n = list.Count;
-        while (n > 1)
+        for (int i = 0; i < inputList.Count - 1; i++)
         {
-            n--;
-            int k = random.Next(n + 1);
-            T value = list[k];
-            list[k] = list[n];
-            list[n] = value;
+            T temp = inputList[i];
+            int rand = Random.Range(i, inputList.Count);
+            inputList[i] = inputList[rand];
+            inputList[rand] = temp;
         }
     }
+
 }
