@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public bool _completed = false;
     public string _ramuanYangDiminta;
     public string _Diminta;
-
+    public IncomeManager incomeManager;
     public GameObject _floatText;
     public TextMeshProUGUI _hasil;
 
@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
             {
                 if(_ramuanHasil == _Diminta){
                 _hasil.text = "Ramuan yang kamu buat benar";
+                incomeManager.IncreaseIncome(100000);
                 }
                 else{
                 _hasil.text = "Ramuan yang kamu buat salah, rek";
