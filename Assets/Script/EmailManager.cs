@@ -93,14 +93,7 @@ public class InboxManager : MonoBehaviour
     }else{
         originalList.RemoveAt(_email);
     }
-
-    if(_email == 5){
-        // Set Active GameObj pendapatan
-        CloseButton();
-    }
-    else{
         ShowRandomMessage();
-    }
     }
 
     public void CloseButton()
