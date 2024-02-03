@@ -75,6 +75,7 @@ public class InboxManager : MonoBehaviour
             _accButton.SetActive(true);
             _decButton.SetActive(true);
             DeclineEmail();
+            ResetGame();
         }
     }
 
