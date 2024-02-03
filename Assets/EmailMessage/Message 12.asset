@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 12
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Kebal
   From: rajapolisi92@imail.com
   subject: Persediaan pasukan
   body: "\rNuhun Mbah Dukun, saya Kapolsek menulis email ini dengan permintaan khusus.

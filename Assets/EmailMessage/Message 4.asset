@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 4
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Pelet
   From: hartoharto@bmail.com
   subject: Dia adalah pelita hatiku
   body: Oh, hatiku gundah gulana. Aku tak bisa menyingkirkan dirinya dari dalam pikiranku.

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 6
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Penglaris
   From: Bangjeki123@bmail.com
   subject: 'Youtuber!! '
   body: Halo mbah, adak cara biar cepat terkenal aku? Dari dulu sudah buka chanel

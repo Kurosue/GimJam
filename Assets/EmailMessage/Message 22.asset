@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 22
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Santet
   From: jenderal02@intel.co.id
   subject: Perlindungan negara
   body: Halo Mbah Dukun,Saya seseorang yang sangat rahasia. Email ini akan langsung

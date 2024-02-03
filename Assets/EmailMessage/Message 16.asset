@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 16
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Waskita
   From: garudasuper17@bmail.co.id
   subject: Indo
   body: "Malam mbah, seperti yang mbah tau besok indonesia akan ada pertandingan

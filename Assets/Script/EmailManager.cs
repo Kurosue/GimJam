@@ -106,6 +106,7 @@ public class InboxManager : MonoBehaviour
         EmailMessage currentMessage = originalList[_email];
 
         // subjectText.text = currentMessage.subject;
+        _completed._Diminta = currentMessage.Ramuan;
         FromText.text = "From : " + currentMessage.From;
         bodyText.text = currentMessage.body;
         for (int i = 0; i < 5; i++)

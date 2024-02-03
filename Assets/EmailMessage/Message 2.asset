@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 2
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Pelet
   From: siapajabole@yehee.com
   subject: Dosen cantik
   body: "mbah.. ak suka sama dosen matematika di kampus. dia pinter, cantik, baik

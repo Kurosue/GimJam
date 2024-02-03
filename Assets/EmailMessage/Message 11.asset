@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 11
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Kebal
   From: sujoyokus22@yehee.com
   subject: Kuli Jawa
   body: Punten mbah, saya mau tanya. Apakah ada ramuan yang bisa membantu pekerjaan

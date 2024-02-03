@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 24
   m_EditorClassIdentifier: 
+  Ramuan: Ramuan Santet
   From: budilelaki@bmail.com
   subject: Cinta menyakitkan
   body: "Sampurasun mbah, saya baru saja sakit hati dengan seorang perempuan yang
