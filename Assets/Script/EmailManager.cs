@@ -143,10 +143,9 @@ public class InboxManager : MonoBehaviour
 
 public static class ListExtensions
 {
-    private static Random random = new Random();
-
     public static void Shuffle<T>(this IList<T> list)
     {
+        Random random = new Random();
         int n = list.Count;
         while (n > 1)
         {
