@@ -50,8 +50,12 @@ public class GameManager : MonoBehaviour
         // Kalau ramuan siap
         else if(_ramuanHasil != "")
         {
+            int _sisaEmail = _emailPage.GetComponent<EmailManager>()._email;
             timer += Time.deltaTime;
-            if(timer <= 4f)
+            if(_sisaEmail == 4){
+               // munculin pendapatan 
+            }
+            else if(timer <= 4f)
             {
                 if(_ramuanHasil == _Diminta){
                 _hasil.text = "Ramuan yang kamu buat benar";
