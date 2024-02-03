@@ -27,7 +27,7 @@ public class InboxManager : MonoBehaviour
 
     private void Start()
     {
-        originalList.Shuffle();
+        ListExtensions.Shuffle(originalList);
         _monitor = GetComponent<Image>();
         ShowRandomMessage();
         _closeButton.SetActive(false);
@@ -139,4 +139,22 @@ public class InboxManager : MonoBehaviour
         _completed.timer = 0f;
     }
 
+}
+
+public static class ListExtensions
+{
+    private static Random random = new Random();
+
+    public static void Shuffle<T>(this IList<T> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = random.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+    }
 }
