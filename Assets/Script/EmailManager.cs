@@ -14,8 +14,10 @@ public class InboxManager : MonoBehaviour
 
     public List<EmailMessage> originalList;
     private int numberOfItemsToSelect = 5;
-    private List<EmailMessage> _selectedEmail; 
+    private List<EmailMessage> _selectedEmail;
 
+
+    public List<TextMeshProUGUI> _listSubjectText;
     public TextMeshProUGUI bodyText;
     public GameObject _accButton;
     public GameObject _closeButton;
@@ -30,6 +32,10 @@ public class InboxManager : MonoBehaviour
         _selectedEmail = SelectRandomItems(originalList, numberOfItemsToSelect);
         _monitor = GetComponent<Image>();
         ShowRandomMessage();
+        for (int i = 0; i < 5; i++)
+        {
+            _listSubjectText[i].text = _selectedEmail[i].subject;
+        }
     }
 
 

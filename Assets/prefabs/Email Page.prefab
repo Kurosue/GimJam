@@ -2175,6 +2175,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dd31aba3a629dcc428018fc7a31fa328, type: 2}
   - {fileID: 11400000, guid: baf754c87e871ae409e641c2b3b4ab7d, type: 2}
   - {fileID: 11400000, guid: 21bf5bd9efaa0304abe5e07f1a995810, type: 2}
+  _listSubjectText:
+  - {fileID: 7365705545868866774}
+  - {fileID: 2901704918349621881}
+  - {fileID: 3982738275012434480}
+  - {fileID: 1722732548703915185}
+  - {fileID: 3769608212177736992}
   bodyText: {fileID: 6936475753841032022}
   _accButton: {fileID: 4660614838067634193}
   _closeButton: {fileID: 1434563594663315171}
