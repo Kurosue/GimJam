@@ -21,6 +21,8 @@ public class InboxManager : MonoBehaviour
     public GameObject _closeButton;
     public GameObject _decButton;
 
+    private static Random random = new Random();
+
     Image _monitor;
     bool _acc = false;
     bool _close = false;
@@ -91,7 +93,7 @@ public class InboxManager : MonoBehaviour
     {
         _email++;
     }else{
-        originalList.RemoveAt[_email];
+        originalList.RemoveAt(_email);
     }
         ShowRandomMessage();
     }
@@ -143,9 +145,10 @@ public class InboxManager : MonoBehaviour
 
 public static class ListExtensions
 {
+    private static Random random = new Random(); // Move this line outside of methods
+
     public static void Shuffle<T>(this IList<T> list)
     {
-        Random random = new Random();
         int n = list.Count;
         while (n > 1)
         {
