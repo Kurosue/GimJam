@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     Image _monitor;
     bool _openMail;
     float _hari;
-    float timer;
+    public float timer;
     bool reset;
 
     void Start()
@@ -39,14 +39,14 @@ public class GameManager : MonoBehaviour
                 _openMail = false;
             }
         }
-        if(_completed)
+        else if(_completed)
         {
             _hari++;
             OpenEmail();
         }
 
         // Kalau ramuan siap
-        if(_ramuanHasil != "")
+        else if(_ramuanHasil != "")
         {
             timer += Time.deltaTime;
             if(timer <= 4f)
@@ -55,11 +55,12 @@ public class GameManager : MonoBehaviour
                 Vector3 _targetPos = new Vector3(-9.2f,-195.7f,0f);
                 Window.rectTransform.anchoredPosition = Vector3.Lerp(Window.rectTransform.anchoredPosition, _targetPos, 7f * Time.deltaTime);
             }
-            else
-            {
-                _completed = true;
+            else if(timer > 4f && timer <=6f){
                 Vector3 _targetPos = new Vector3(-9.2f,-254.85f,0f);
                 Window.rectTransform.anchoredPosition = Vector3.Lerp(Window.rectTransform.anchoredPosition, _targetPos, 7f * Time.deltaTime);
+            }else
+            {
+                _completed = true;
             }
         } 
     }

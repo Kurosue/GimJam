@@ -33,6 +33,7 @@ public class InboxManager : MonoBehaviour
         _selectedEmail = SelectRandomItems(originalList, numberOfItemsToSelect);
         _monitor = GetComponent<Image>();
         ShowRandomMessage();
+        _closeButton.SetActive(false);
         for (int i = 0; i < 5; i++)
         {
             _listSubjectText[i].text = _selectedEmail[i].subject;
@@ -76,6 +77,7 @@ public class InboxManager : MonoBehaviour
             _decButton.SetActive(true);
             DeclineEmail();
             ResetGame();
+            Debug.Log(0);
         }
     }
 
@@ -161,10 +163,14 @@ public class InboxManager : MonoBehaviour
 
     public void ResetGame()
     {
-        _trigger._total = 0;
+        _trigger.jumlahbroto = 0;
+        _trigger.jumlahkencur = 0;
+        _trigger.jumlahsirih = 0;
+        _trigger.jumlahtemu = 0;
         _trigger.stop = true;
         _completed._completed = false;
         _completed._ramuanHasil = "";
+        _completed.timer = 0f;
     }
 
 }
