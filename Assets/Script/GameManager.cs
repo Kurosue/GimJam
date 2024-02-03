@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
                 _hasil.text = "Ramuan yang kamu buat benar";
                 }
                 else{
-                _hasil.text = " Ramuan kamu salah kontol";
+                _hasil.text = "Ramuan yang kamu buat salah, rek";
                 }
                 Vector3 _targetPos = new Vector3(-9.2f,-195.7f,0f);
                 Window.rectTransform.anchoredPosition = Vector3.Lerp(Window.rectTransform.anchoredPosition, _targetPos, 7f * Time.deltaTime);
