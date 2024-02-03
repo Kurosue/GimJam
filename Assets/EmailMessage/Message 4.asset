@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 4
   m_EditorClassIdentifier: 
-  from: hartoharto@bmail.com
+  From: hartoharto@bmail.com
   subject: Dia adalah pelita hatiku
   body: Oh, hatiku gundah gulana. Aku tak bisa menyingkirkan dirinya dari dalam pikiranku.
     Setiap detik, dalam setiap nafasku, insan belia yang cantik menawan itu selalu

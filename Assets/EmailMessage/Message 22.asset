@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 22
   m_EditorClassIdentifier: 
-  from: jenderal17@intel.co.id
+  From: jenderal02@intel.co.id
   subject: Perlindungan negara
-  body: 'Halo Mbah Dukun,Saya seseorang yang sangat rahasia. Email ini akan langsung
+  body: Halo Mbah Dukun,Saya seseorang yang sangat rahasia. Email ini akan langsung
     menghilang beberapa jam setelah mbah membacanya. Saya membutuhkan bantuan Mbah
     dalam pembuatan ramuan khusus untuk menangani mata-mata dari sebuah pasukan teroris
-    Papua di negara tercinta kita ini. Saya yakin Mbah mau untuk memberikan kontribusi
-    yang besar untuk negaranya. Mohon agar Mbah Dukun bersedia membantu kami. Kami
-    siap untuk membayar jasa Mbah. Percayalah usaha anda akan sangat membantu negara
-    kita.
-
-'
+    Papua di negara tercinta kita ini. Mohon agar Mbah Dukun bersedia membantu kami.
+    Kami siap untuk membayar jasa Mbah. Percayalah usaha anda akan sangat membantu
+    negara kita.

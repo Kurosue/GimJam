@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 1
   m_EditorClassIdentifier: 
-  from: irasudiraw@bmail.com
+  From: 'irasudiraw@bmail.com '
   subject: Masalah hubungan
   body: "halo,, klw racikan utk mngtasi swami yg sdh tidak lgi trtrk apkh ada ya?
     swmi sy seakan-akan sdh tdk lgi pduli dgn saya setelah pulang kerja. apkh karena

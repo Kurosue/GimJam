@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 13
   m_EditorClassIdentifier: 
-  from: pale_123@yehee.com
+  From: pale_123@yehee.com
   subject: Viva La Revolucion!
   body: Perkenalkan, kami dari Pasukan Pemberontakan Anti Penindasan (PPAP). Saya
     dengar mbah merupakan seorang dukun yang sangat hebat. Oleh karena itu, kami

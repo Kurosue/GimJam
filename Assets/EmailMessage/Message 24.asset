@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 24
   m_EditorClassIdentifier: 
-  from: 'budilelaki@bmail.com '
+  From: budilelaki@bmail.com
   subject: Cinta menyakitkan
-  body: "Sampurasun mbah, saya baru saja mengalami rasa akit hati dengan seorang
-    perempuan yang saya cintai selama 3 tahun. Saya telah memberikan segala yang
-    saya punya untuk dia. 3 tahun saya usahakan yang terbaik buat  dia, tapi 1 minggu
-    sebelum kita pergi bulan madu\u2026. Dia menghilang. Dia pergi meninggalkan saya
-    dengan lelaki lain. Ratusan juta uang telah kuberikan untuknya. Namun, dia pergi
-    membawa seluruh harta saya dengan lelaki lain tanpa ada rasa bersalah. Saya membutuhkan
-    bantuan Mbah. Berikan saya ramuan yang bisa membalaskan dendam saya padannya.
-    Mungkin uang saya tidak banyak, tetapi saya memohon kepada mbah untuk memberikan
-    saya alat untuk balas dendam."
+  body: "Sampurasun mbah, saya baru saja sakit hati dengan seorang perempuan yang
+    saya cintai. Saya telah memberikan segala yang saya punya untuk dia. 3 tahun
+    saya usahakan yang terbaik buat dia, tapi 1 minggu sebelum kita pergi bulan madu\u2026.
+    Dia menghilang. Dia pergi meninggalkan saya dengan lelaki lain. Saya membutuhkan
+    bantuan Mbah. Berikan saya ramuan yang bisa membalaskan dendam saya. Mungkin
+    uang saya tidak banyak, tetapi saya memohon kepada mbah untuk memberikan saya
+    alat untuk balas dendam."

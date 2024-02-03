@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 3
   m_EditorClassIdentifier: 
-  from: cherry1945@imail.com
+  From: cherry1945@imail.com
   subject: Gabisa move on :(
   body: Assalamualaikum wr wb mbah dukun, aku baru putus sama mantanku sekitar sebulan
     lalu.. Tapi aku masih sayang banget sama dia hikz.. :( ak mau mantanku bisa balik

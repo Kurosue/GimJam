@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 19
   m_EditorClassIdentifier: 
-  from: 'republik13@intel.co.id '
+  From: republik13@intel.co.id
   subject: 'Perlindungan negara '
   body: "Halo Mbah ,Saya seseorang yang sangat rahasia. Saya menulis email ini dengan
     permohonan khusus. Kami membutuhkan bantuan Mbah dalam pembuatan ramuan khusus

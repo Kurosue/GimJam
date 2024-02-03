@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 12
   m_EditorClassIdentifier: 
-  from: rajapolisi92@imail.com
+  From: rajapolisi92@imail.com
   subject: Persediaan pasukan
   body: "\rNuhun Mbah Dukun, saya Kapolsek menulis email ini dengan permintaan khusus.
     Kita memerlukan bantuan Mbah untuk menyiapkan ramuan khusus yang dapat membantu
     meningkatkan imunitas pasukan kita. Saya membutuhkan ramuan ini untuk  menyelesaikan
     masalah tawuran di SMA T3. Saya yakin ilmu Mbah akan memberikan kontribusi penting
     bagi pekerjaan kita. Karena kurangnya dana dari pemerintah, kami mohon maaf tetapi
-    uang yang saya tawarkan tidak banyak.\r\n"
+    uang yang saya tawarkan tidak banyak.\r"

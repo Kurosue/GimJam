@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 21
   m_EditorClassIdentifier: 
-  from: dukunpemula@bmail.com
+  From: dukunpemula@bmail.com
   subject: "Puh\u2026 Ajarin puh\u2026"
   body: "Assalamualaikum mbah. Perkenalkan, aku seorang yang ingin sekali menjadi
     dukun. Untuk keahlian, aku ingin sekali menjadi dukun santet yang sangat hebat.

@@ -416,8 +416,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -550,8 +550,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -967,8 +967,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1041,10 +1041,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1811540382338928090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 82.513985, y: 104.1}
-  m_SizeDelta: {x: 391.2279, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 82.513985, y: 104.100006}
+  m_SizeDelta: {x: 291.2279, y: -50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2828801882802056947
 CanvasRenderer:
@@ -1101,8 +1101,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1936,8 +1936,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2310,6 +2310,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dd31aba3a629dcc428018fc7a31fa328, type: 2}
   - {fileID: 11400000, guid: baf754c87e871ae409e641c2b3b4ab7d, type: 2}
   - {fileID: 11400000, guid: 21bf5bd9efaa0304abe5e07f1a995810, type: 2}
+  - {fileID: 11400000, guid: 2e43c4c2118887444978fb7b75f08b9d, type: 2}
+  - {fileID: 11400000, guid: 9b970a74766a3544d84065c07ac025e4, type: 2}
+  - {fileID: 11400000, guid: 6549ed512742cbe48a4d584711f3f7ab, type: 2}
+  - {fileID: 11400000, guid: 93bcbb45d53dfdd4cb2af89b69f5db05, type: 2}
+  - {fileID: 11400000, guid: 93c7552b31acee8439c6badd7deedc53, type: 2}
+  - {fileID: 11400000, guid: 47f61e4b99672554599ffc583dff93ee, type: 2}
+  - {fileID: 11400000, guid: f0beb4f10003bd24db98353277a1d0e3, type: 2}
+  - {fileID: 11400000, guid: e79cdae520227ec42a5bdc63aed72d24, type: 2}
+  - {fileID: 11400000, guid: bdbb75c8f1968154e9feec3e9039bcf2, type: 2}
+  - {fileID: 11400000, guid: 32fde201e52a5a94e8d6d07ff63d21db, type: 2}
+  - {fileID: 11400000, guid: 4ec9f2bb2f85ef548ba84576cf9310fa, type: 2}
+  - {fileID: 11400000, guid: 36528d9918ca86746be3521bd2e44a5e, type: 2}
+  - {fileID: 11400000, guid: 49a1d4860dcbe80488bd8dbbcc086814, type: 2}
+  - {fileID: 11400000, guid: d8c14a0d007ca9748817bf3b60bbb34d, type: 2}
   _listSubjectText:
   - {fileID: 7365705545868866774}
   - {fileID: 2901704918349621881}
@@ -2413,8 +2427,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

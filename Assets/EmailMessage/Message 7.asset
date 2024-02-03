@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 7
   m_EditorClassIdentifier: 
-  from: super4richasian@kmail.com
+  From: super4richasian@kmail.com
   subject: Pengusaha korea
   body: Perkenalkan, saya penjual kimchi paling terkenal, ingin meminta bantuan Mbah
     dalam pembuatan ramuan untuk meningkatkan penjualan produk saya. Saya meminta

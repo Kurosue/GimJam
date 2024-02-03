@@ -108,7 +108,7 @@ public class InboxManager : MonoBehaviour
         EmailMessage currentMessage = _selectedEmail[_email];
 
         // subjectText.text = currentMessage.subject;
-        FromText.text = "From " + currentMessage.From;
+        FromText.text = "From : " + currentMessage.From;
         bodyText.text = currentMessage.body;
     }
 

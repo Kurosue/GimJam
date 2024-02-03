@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0259b4c15941bd840bd49cdfade4a823, type: 3}
   m_Name: Message 11
   m_EditorClassIdentifier: 
-  from: sujoyokus22@yehee.com
+  From: sujoyokus22@yehee.com
   subject: Kuli Jawa
-  body: 'Punten mbah, saya mau tanya. Apakah ada ramuan yang bisa membantu pekerjaan
+  body: Punten mbah, saya mau tanya. Apakah ada ramuan yang bisa membantu pekerjaan
     saya? Saya seorang kuli di daerah yang hari-hari ini kriminalitasnya lumayan
-    tinggi. Saya ingin tetap di rumah, tetapi saya harus tetap bekerja untuk memenuhi
-    kebutuhan keluarga saya. Mungkin uang yang saya punya tidak banyak, tetapi  saya
-    meminta belas kasihan dan bantuan mbah untuk masalah ini. Jika memang mbah tidak
-    ingin melakukannya tidak apa-apa. Namun, saya minta tolong dari lubuk hati terdalam
-    saya untuk bantuan ramuan dari mbah.
-
-'
+    tinggi. Mungkin uang yang saya punya tidak banyak, tetapi saya meminta belas
+    kasihan dan bantuan mbah untuk masalah ini. Jika memang mbah tidak ingin melakukannya
+    tidak apa-apa. Namun, saya minta tolong dari lubuk hati terdalam saya untuk bantuan
+    ramuan dari mbah.
